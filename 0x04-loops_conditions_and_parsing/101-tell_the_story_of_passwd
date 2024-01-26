@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # Displays the contents of file /etc/passwd
 while IFS= read -r contents
 do
