@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displays "to infinity and beyond" with a sleep 2 in between
 trap 'echo "I an invincible!!!"' 15
-while true
+while "true"
 do
 	echo "To infinity and beyond"
 	sleep 2
