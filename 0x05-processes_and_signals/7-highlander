@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Displays "to infinity and beyond" with a sleep 2 in between
-trap 'echo "I an invincible!!!"' 15
 while true
 do
-	echo "to infinity and beyond"
+	echo "To infinity and beyond"
 	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
 done
