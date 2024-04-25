@@ -1,0 +1,10 @@
+# ssh_config
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/authorized_keys
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    HostName 54.236.26.183
+    User ubuntu
